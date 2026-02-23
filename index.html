@@ -1,0 +1,743 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aranya â€” India's Finest Fine Dining Restaurant | Mumbai</title>
+  <meta name="description"
+    content="Aranya is a world-class fine-dining restaurant in Mumbai offering a seasonal 10-course tasting menu rooted in ingredient-driven philosophy. Ranked in Asia's 50 Best Restaurants. Reserve your table today." />
+  <meta name="keywords"
+    content="fine dining Mumbai, best restaurant Mumbai, tasting menu Mumbai, Asia 50 best restaurants India, Aranya restaurant, Prateek Sadhu, luxury dining India" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.aranyarestaurant.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:title" content="Aranya â€” India's Most Celebrated Fine Dining" />
+  <meta property="og:description"
+    content="A seasonal 10-course tasting menu rooted in India's most extraordinary ingredients. Located in Mumbai." />
+  <meta property="og:url" content="https://www.aranyarestaurant.com/" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Aranya",
+    "description": "A seasonal 10-course tasting menu restaurant in Mumbai, ranked in Asia's 50 Best Restaurants.",
+    "url": "https://www.aranyarestaurant.com/",
+    "telephone": "+912249716671",
+    "email": "reservations@aranyarestaurant.com",
+    "priceRange": "â‚¹â‚¹â‚¹â‚¹",
+    "servesCuisine": ["Contemporary Indian", "Progressive", "Fine Dining"],
+    "sameAs": [
+      "https://www.instagram.com/aranyarestaurant/",
+      "https://www.facebook.com/aranyarestaurant/",
+      "https://twitter.com/aranyarestro"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Laxmi Woollen Mills, Shakti Mills Lane, off Dr. E. Moses Road, Mahalaxmi",
+      "addressLocality": "Mumbai",
+      "addressRegion": "Maharashtra",
+      "postalCode": "400011",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 18.97626,
+      "longitude": 72.81901
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "19:00", "closes": "23:00" }
+    ],
+    "hasMap": "https://g.page/aranya-restaurant-mumbai",
+    "award": ["Asia's 50 Best Restaurants #19", "CondÃ© Nast Traveller Best Restaurant", "GQ Best New Restaurant"]
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+
+<body>
+
+  <!-- ================================================
+     NAVIGATION
+     ================================================ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">ARANYA</a>
+      <ul class="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#awards">Accolades</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#drinks">Drinks</a></li>
+        <li><a href="#lab">The Lab</a></li>
+      </ul>
+      <a href="#reservations" class="btn btn-gold nav-cta" aria-label="Reserve a table">
+        <span>Reserve Now</span>
+      </a>
+      <button id="hamburger" class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div id="mobile-nav" class="mobile-nav" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+    <a href="#about">About</a>
+    <a href="#awards">Accolades</a>
+    <a href="#menu">Menu</a>
+    <a href="#drinks">Drinks</a>
+    <a href="#lab">The Lab</a>
+    <a href="#reservations" style="color: var(--gold);">Reserve a Table</a>
+  </div>
+
+  <!-- ================================================
+     HERO
+     ================================================ -->
+  <section id="hero" aria-label="Hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <p class="hero-eyebrow">Mumbai, India Â· Est. 2016</p>
+      <h1 class="hero-title">
+        India's Most<br />
+        <em>Celebrated</em><br />
+        Fine Dining
+      </h1>
+      <p class="hero-tagline">A seasonal 10-course journey through India's most extraordinary ingredients</p>
+      <div class="hero-actions">
+        <a href="#reservations" class="btn btn-gold" id="hero-reserve-cta">
+          <span>Reserve Your Table</span>
+        </a>
+        <a href="#menu" class="btn btn-white">
+          <span>Explore the Menu</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span class="scroll-line"></span>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ================================================
+     AWARDS TICKER
+     ================================================ -->
+  <div id="awards-ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <!-- duplicated for seamless loop -->
+      <div class="ticker-item"><span class="t-icon">âœ¦</span> <strong>#19</strong> <span>Asia's 50 Best
+          Restaurants</span></div>
+      <div class="ticker-item"><span class="t-icon">âœ¦</span> <strong>Best Restaurant</strong> <span>CondÃ© Nast Traveller
+          India</span></div>
+      <div class="ticker-item"><span class="t-icon">âœ¦</span> <strong>GQ Best New Restaurant</strong> <span>India</span>
+      </div>
+      <div class="ticker-item"><span class="t-icon">âœ¦</span> <strong>Chef of the Year</strong> <span>Prateek Sadhu Â· JW
+          Marriott Awards</span></div>
+      <div class="ticker-item"><span class="t-icon">âœ¦</span> <strong>#3 Best Fine Dining</strong> <span>Times Food
+          Awards Mumbai</span></div>
+      <div class="ticker-item"><span class="t-icon">âœ¦</span> <strong>10-Course Tasting Menu</strong> <span>Fully
+          Seasonal Â· Always Changing</span></div>
+      <!-- Duplicate for seamless scroll -->
+      <div class="ticker-item"><span class="t-icon">âœ¦</span> <strong>#19</strong> <span>Asia's 50 Best
+          Restaurants</span></div>
+      <div class="ticker-item"><span class="t-icon">âœ¦</span> <strong>Best Restaurant</strong> <span>CondÃ© Nast Traveller
+          India</span></div>
+      <div class="ticker-item"><span class="t-icon">âœ¦</span> <strong>GQ Best New Restaurant</strong> <span>India</span>
+      </div>
+      <div class="ticker-item"><span class="t-icon">âœ¦</span> <strong>Chef of the Year</strong> <span>Prateek Sadhu Â· JW
+          Marriott Awards</span></div>
+      <div class="ticker-item"><span class="t-icon">âœ¦</span> <strong>#3 Best Fine Dining</strong> <span>Times Food
+          Awards Mumbai</span></div>
+      <div class="ticker-item"><span class="t-icon">âœ¦</span> <strong>10-Course Tasting Menu</strong> <span>Fully
+          Seasonal Â· Always Changing</span></div>
+    </div>
+  </div>
+
+  <!-- ================================================
+     ABOUT
+     ================================================ -->
+  <section id="about" aria-labelledby="about-title">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-images reveal-left">
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
+              alt="Aranya signature tasting plate with artistic garnish" loading="lazy" />
+          </div>
+          <div class="about-img-accent">
+            <img src="https://images.unsplash.com/photo-1551882547-ff40c4cec73e?w=600&q=80"
+              alt="Aranya restaurant warm interior ambience" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="about-text reveal-right">
+          <p class="section-label">Our Philosophy</p>
+          <h2 class="section-title" id="about-title">
+            Rooted in India.<br />
+            Driven by Seasons.
+          </h2>
+          <div class="divider"></div>
+          <p class="about-body">
+            At Aranya, we believe the most extraordinary ingredients are the ones hiding in plain sight across India.
+            Each season, our team embarks on ingredient-sourcing journeys â€” from the foothills of Uttarakhand to the
+            backwaters of Kerala â€” to discover produce that few chefs have ever cooked with.
+          </p>
+          <p class="about-body" style="margin-top: -1rem;">
+            The result is a 10-course tasting menu that changes with every harvest. No two visits are ever the same.
+            This is not food that chases trends â€” it is food that tells the true story of where we come from.
+          </p>
+          <div class="chefs-row">
+            <div class="chef-card reveal delay-2">
+              <div class="chef-avatar">
+                <img src="https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=200&q=80"
+                  alt="Chef Prateek Sadhu, Founder & Head Chef of Aranya" loading="lazy" />
+              </div>
+              <div>
+                <p class="chef-name">Prateek Sadhu</p>
+                <p class="chef-role">Founder & Head Chef</p>
+              </div>
+            </div>
+            <div class="chef-card reveal delay-3">
+              <div class="chef-avatar">
+                <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=200&q=80"
+                  alt="Aditi Dugar, Co-Founder of Aranya" loading="lazy" />
+              </div>
+              <div>
+                <p class="chef-name">Aditi Dugar</p>
+                <p class="chef-role">Co-Founder & Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+     AWARDS & PRESS
+     ================================================ -->
+  <section id="awards" aria-labelledby="awards-title">
+    <div class="container">
+      <p class="section-label reveal">Accolades &amp; Recognition</p>
+      <h2 class="section-title reveal delay-1" id="awards-title">A Table Recognised<br />by the World</h2>
+      <div class="divider reveal delay-2"></div>
+
+      <div class="awards-grid">
+        <div class="award-card reveal delay-1">
+          <div class="award-number">#19</div>
+          <div class="award-list-name">Asia's 50 Best<br />Restaurants</div>
+          <div class="award-year">2023</div>
+        </div>
+        <div class="award-card reveal delay-2">
+          <div class="award-number">#1</div>
+          <div class="award-list-name">Best Restaurant<br />CondÃ© Nast India</div>
+          <div class="award-year">2022 â€“ 2024</div>
+        </div>
+        <div class="award-card reveal delay-3">
+          <div class="award-number">Top 3</div>
+          <div class="award-list-name">Times Food<br />Awards Mumbai</div>
+          <div class="award-year">2021 â€“ 2024</div>
+        </div>
+        <div class="award-card reveal delay-4">
+          <div class="award-number">GQ</div>
+          <div class="award-list-name">Best New Restaurant<br />India</div>
+          <div class="award-year">2018</div>
+        </div>
+      </div>
+
+      <div class="press-quotes">
+        <div class="press-card reveal delay-1">
+          <p class="press-quote">
+            A genuinely world-class restaurant that redefines what Indian fine dining can be. Nothing in the country
+            touches it.
+          </p>
+          <p class="press-source">â€” Financial Times</p>
+        </div>
+        <div class="press-card reveal delay-2">
+          <p class="press-quote">
+            Chef Sadhu's cooking is a revelation â€” ingredient-obsessed, technically brilliant, and profoundly personal.
+          </p>
+          <p class="press-source">â€” CondÃ© Nast Traveller India</p>
+        </div>
+        <div class="press-card reveal delay-3">
+          <p class="press-quote">
+            Aranya has done for Indian fine dining what Noma did for Scandinavian cuisine. It is a milestone restaurant.
+          </p>
+          <p class="press-source">â€” The Guardian</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+     SEASONAL TASTING MENU
+     ================================================ -->
+  <section id="menu" aria-labelledby="menu-title">
+    <div class="container">
+      <div class="menu-header">
+        <div>
+          <p class="section-label reveal">Current Season</p>
+          <h2 class="section-title reveal delay-1" id="menu-title">The Tasting Menu</h2>
+          <p class="section-subtitle reveal delay-2">Ten courses. Each one a conversation between land and cook.</p>
+        </div>
+        <a href="#reservations" class="btn btn-outline reveal delay-3" style="flex-shrink:0;">
+          <span>Book a Table</span>
+        </a>
+      </div>
+
+      <div class="carousel-wrapper" aria-label="Tasting menu courses carousel">
+        <div class="carousel-track" id="menu-carousel">
+
+          <div class="course-card">
+            <div class="course-img">
+              <span class="course-number">Course 01</span>
+              <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80"
+                alt="Amuse bouche: Kodo millet crisp with smoked trout roe" loading="lazy" />
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">Himalayan Amuse</h3>
+              <p class="course-desc">Kodo millet crisp Â· Smoked trout roe Â· Wild herb emulsion from Spiti Valley</p>
+            </div>
+          </div>
+
+          <div class="course-card">
+            <div class="course-img">
+              <span class="course-number">Course 02</span>
+              <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&q=80"
+                alt="First course: Rainwater tomato with buffalo milk curd" loading="lazy" />
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">Rainwater Tomato</h3>
+              <p class="course-desc">Heirloom tomatoes Â· Buffalo milk curd Â· Twenty-year aged balsamic Â· Marigold oil
+              </p>
+            </div>
+          </div>
+
+          <div class="course-card">
+            <div class="course-img">
+              <span class="course-number">Course 03</span>
+              <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&q=80"
+                alt="Third course: Wild river fish from Himachal" loading="lazy" />
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">River &amp; Snow</h3>
+              <p class="course-desc">Himalayan river trout Â· Pine nut dashi Â· Freeze-dried apricot Â· Mountain sorrel</p>
+            </div>
+          </div>
+
+          <div class="course-card">
+            <div class="course-img">
+              <span class="course-number">Course 04</span>
+              <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=600&q=80"
+                alt="Fourth course: Native grain celebration" loading="lazy" />
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">Forgotten Grains</h3>
+              <p class="course-desc">Rajasthani bajra Â· Black sesame Â· Aged ghee emulsion Â· Forest funghi from Kerala
+              </p>
+            </div>
+          </div>
+
+          <div class="course-card">
+            <div class="course-img">
+              <span class="course-number">Course 05</span>
+              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80"
+                alt="Fifth course: Heritage breed lamb main" loading="lazy" />
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">Lamb &amp; Spice Route</h3>
+              <p class="course-desc">Nagaur heritage lamb Â· Kashmiri morel sauce Â· Bone marrow tallow Â· Black cardamom
+              </p>
+            </div>
+          </div>
+
+          <div class="course-card">
+            <div class="course-img">
+              <span class="course-number">Course 10</span>
+              <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80"
+                alt="Final dessert course: Nolen gur" loading="lazy" />
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">Nolen Gur &amp; Honey</h3>
+              <p class="course-desc">Bengal date palm jaggery ice cream Â· Wild Nilgiris honey Â· Sesame tuile Â· Rose
+                water</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="menu-prev" aria-label="Previous course">&#8592;</button>
+        <div class="carousel-dots" id="menu-dots" role="tablist" aria-label="Course navigation"></div>
+        <button class="carousel-btn" id="menu-next" aria-label="Next course">&#8594;</button>
+      </div>
+
+      <div class="menu-pricing reveal">
+        <div class="pricing-item">
+          <p class="pricing-label">Tasting Menu</p>
+          <p class="pricing-value">â‚¹12,500</p>
+          <p class="pricing-note">per person Â· 10 courses</p>
+        </div>
+        <div class="pricing-item">
+          <p class="pricing-label">Wine Pairing</p>
+          <p class="pricing-value">â‚¹6,500</p>
+          <p class="pricing-note">per person Â· curated by sommelier</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+     DRINKS EXPERIENCE
+     ================================================ -->
+  <section id="drinks" aria-labelledby="drinks-title">
+    <div class="container">
+      <p class="section-label reveal">The Bar</p>
+      <h2 class="section-title reveal delay-1" id="drinks-title">A Drinks Philosophy<br />as Considered as the Food</h2>
+      <p class="section-subtitle reveal delay-2">Every glass tells a story of origin, season, and intention.</p>
+
+      <div class="drinks-grid">
+
+        <div class="drink-tile">
+          <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=900&q=80"
+            alt="Aranya signature cocktail with hand-carved ice and botanicals" loading="lazy" />
+          <div class="drink-overlay">
+            <p class="drink-tag">Signature Cocktail</p>
+            <h3 class="drink-name">The Aranya Sour</h3>
+            <p class="drink-desc">House-distilled kokum spirit Â· Hand-squeezed raw mango Â· Himalayan bitters Â· Foamed
+              goat milk</p>
+          </div>
+        </div>
+
+        <div class="drink-tile">
+          <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&q=80"
+            alt="Natural wine selection curated for Aranya tasting menu" loading="lazy" />
+          <div class="drink-overlay">
+            <p class="drink-tag">Wine Programme</p>
+            <h3 class="drink-name">Natural &amp; Old World</h3>
+            <p class="drink-desc">Over 180 labels spanning biodynamic Burgundy to emerging Indian estates</p>
+          </div>
+        </div>
+
+        <div class="drink-tile">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80"
+            alt="Aranya zero-proof botanical drinks pairing" loading="lazy" />
+          <div class="drink-overlay">
+            <p class="drink-tag">Zero-Proof Pairing</p>
+            <h3 class="drink-name">Botanical Infusions</h3>
+            <p class="drink-desc">Artisanal shrubs, house-fermented tepache, and wild herb waters for a complete
+              non-alcoholic journey</p>
+          </div>
+        </div>
+
+        <div class="drink-tile">
+          <img src="https://images.unsplash.com/photo-1567696153798-9111f9cd3d0d?w=600&q=80"
+            alt="Aranya sommelier presenting wine pairings" loading="lazy" />
+          <div class="drink-overlay">
+            <p class="drink-tag">The Sommelier</p>
+            <h3 class="drink-name">Guided Pairing</h3>
+            <p class="drink-desc">Your sommelier will walk you through each pairing, offering insight into every
+              producer and vintage</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="gin-highlight reveal">
+        <div class="gin-badge">CUSTOM<br />GIN<br />INFUSION</div>
+        <div class="gin-text">
+          <h3>The Aranya Bespoke Gin</h3>
+          <p>
+            In collaboration with a small-batch Goa distillery, we have crafted a gin infused with 14 botanicals sourced
+            across India â€” wild rose from Himachal, cardamom from Kerala, dried kokum from Goa. Available exclusively at
+            the bar and to take home, each bottle is hand-numbered and wax-sealed.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+     THE ARANYA LAB
+     ================================================ -->
+  <section id="lab" aria-labelledby="lab-title">
+    <div class="container">
+      <p class="section-label reveal">Behind the Kitchen</p>
+      <h2 class="section-title reveal delay-1" id="lab-title">The Aranya Lab</h2>
+      <p class="section-subtitle reveal delay-2">Where every dish begins â€” months before it reaches your table.</p>
+
+      <div class="lab-grid">
+
+        <div class="lab-images reveal-left">
+          <div class="lab-img">
+            <img src="https://images.unsplash.com/photo-1611171711791-95e8e3bcc1d5?w=900&q=80"
+              alt="Aranya Lab - Research and development kitchen" loading="lazy" />
+          </div>
+          <div class="lab-img">
+            <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=600&q=80"
+              alt="Chef sourcing fresh wild ingredients from local farmers" loading="lazy" />
+          </div>
+          <div class="lab-img">
+            <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80"
+              alt="Aranya team testing seasonal ingredient preparations" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="lab-steps reveal-right">
+          <div class="lab-step">
+            <div class="step-num">01</div>
+            <div class="step-content">
+              <h4>Ingredient Expeditions</h4>
+              <p>Every quarter, our team travels across India to discover rare, indigenous, and forgotten ingredients â€”
+                from forest fungi in Meghalaya to heirloom grains in Rajasthan.</p>
+            </div>
+          </div>
+          <div class="lab-step">
+            <div class="step-num">02</div>
+            <div class="step-content">
+              <h4>Research &amp; Iteration</h4>
+              <p>Back in the Lab, each ingredient is tested through dozens of techniques â€” fermentation, curing,
+                dehydration, infusion â€” to reveal its fullest potential and story.</p>
+            </div>
+          </div>
+          <div class="lab-step">
+            <div class="step-num">03</div>
+            <div class="step-content">
+              <h4>Menu Architecture</h4>
+              <p>Courses are composed to create a 10-chapter narrative â€” building in texture, temperature, and emotion
+                to take you on a journey through an entire landscape.</p>
+            </div>
+          </div>
+          <div class="lab-step">
+            <div class="step-num">04</div>
+            <div class="step-content">
+              <h4>Private Dining &amp; Experiences</h4>
+              <p>The Lab also hosts intimate private dining for up to 14 guests, alongside exclusive chef's table
+                experiences where you witness the creative process firsthand.</p>
+            </div>
+          </div>
+          <a href="#reservations" class="btn btn-outline" style="margin-top:1rem; align-self:flex-start;">
+            <span>Enquire About Private Dining</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+     RESERVATIONS
+     ================================================ -->
+  <section id="reservations" aria-labelledby="res-title">
+    <div class="container">
+      <div class="res-grid">
+
+        <div class="res-info reveal-left">
+          <p class="section-label">Request a Table</p>
+          <h2 class="section-title" id="res-title">Reservations</h2>
+          <div class="divider"></div>
+          <div class="res-details">
+            <div class="res-detail-item">
+              <p class="rdi-label">Seatings</p>
+              <p class="rdi-value">7:00 PM Â· 9:30 PM</p>
+              <p class="rdi-note">Wed â€“ Sun only</p>
+            </div>
+            <div class="res-detail-item">
+              <p class="rdi-label">Menu Price</p>
+              <p class="rdi-value">â‚¹12,500</p>
+              <p class="rdi-note">per person Â· all inclusive</p>
+            </div>
+            <div class="res-detail-item">
+              <p class="rdi-label">Deposit</p>
+              <p class="rdi-value">â‚¹3,000</p>
+              <p class="rdi-note">per person Â· fully redeemable</p>
+            </div>
+            <div class="res-detail-item">
+              <p class="rdi-label">Party Size</p>
+              <p class="rdi-value">2 â€“ 12</p>
+              <p class="rdi-note">larger groups via enquiry</p>
+            </div>
+          </div>
+          <p style="font-size:0.85rem; color:var(--muted); line-height:1.75; margin-top:1rem;">
+            Reservations open 60 days in advance. Cancellations must be made 48 hours prior to avoid deposit forfeiture.
+            Dietary requirements and allergies are accommodated with advance notice.
+          </p>
+          <a href="https://wa.me/912249716671?text=Hello%2C%20I%20would%20like%20to%20make%20a%20reservation%20at%20Aranya.%20Please%20share%20availability."
+            target="_blank" rel="noopener noreferrer" class="whatsapp-cta"
+            aria-label="Chat on WhatsApp to book a table">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.12 1.535 5.851L.057 23.547a.5.5 0 0 0 .596.596l5.697-1.478A11.955 11.955 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.693-.522-5.216-1.43l-.374-.222-3.848.999 1.02-3.733-.243-.386A9.955 9.955 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+            </svg>
+            <span>Chat on WhatsApp</span>
+          </a>
+        </div>
+
+        <div class="res-form reveal-right">
+          <form id="res-form" novalidate>
+            <div class="form-grid">
+              <div class="form-row">
+                <label for="res-name">Full Name</label>
+                <input type="text" id="res-name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-row">
+                <label for="res-email">Email Address</label>
+                <input type="email" id="res-email" name="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-grid">
+              <div class="form-row">
+                <label for="res-phone">Phone Number</label>
+                <input type="tel" id="res-phone" name="phone" placeholder="+91 98765 43210" />
+              </div>
+              <div class="form-row">
+                <label for="res-guests">Number of Guests</label>
+                <select id="res-guests" name="guests" required>
+                  <option value="">Select guests</option>
+                  <option value="2">2 guests</option>
+                  <option value="3">3 guests</option>
+                  <option value="4">4 guests</option>
+                  <option value="5">5 guests</option>
+                  <option value="6">6 guests</option>
+                  <option value="7">7 â€“ 12 guests</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-grid">
+              <div class="form-row">
+                <label for="res-date">Preferred Date</label>
+                <input type="date" id="res-date" name="date" required />
+              </div>
+              <div class="form-row">
+                <label for="res-time">Seating Preference</label>
+                <select id="res-time" name="time">
+                  <option value="7pm">7:00 PM</option>
+                  <option value="9:30pm">9:30 PM</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="res-occasion">Occasion / Special Requests</label>
+              <textarea id="res-occasion" name="occasion"
+                placeholder="Birthday, anniversary, dietary requirements, allergiesâ€¦"></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold" style="width:100%; justify-content:center;">
+              <span>Request Reservation</span>
+            </button>
+            <p class="form-note">
+              A â‚¹3,000 per person deposit secures your table. Our team will confirm your reservation within 24 hours.
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+     FOOTER
+     ================================================ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <p class="footer-logo">ARANYA</p>
+          <p class="footer-tagline">Rooted in India. Driven by seasons. Shaped by fire and time.</p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/aranyarestaurant/" target="_blank" rel="noopener noreferrer"
+              class="social-icon" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/aranyarestaurant/" target="_blank" rel="noopener noreferrer"
+              class="social-icon" aria-label="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+            <a href="https://twitter.com/aranyarestro" target="_blank" rel="noopener noreferrer" class="social-icon"
+              aria-label="Twitter / X">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#about">About Aranya</a></li>
+            <li><a href="#awards">Accolades</a></li>
+            <li><a href="#menu">Tasting Menu</a></li>
+            <li><a href="#drinks">Drinks</a></li>
+            <li><a href="#lab">The Aranya Lab</a></li>
+            <li><a href="#reservations">Reservations</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <ul>
+            <li><a href="#">Wed â€“ Sun</a></li>
+            <li><a href="#">Dinner: 7 PM &amp; 9:30 PM</a></li>
+            <li><a href="#">Closed Mon &amp; Tue</a></li>
+          </ul>
+          <h4 style="margin-top:2rem;">Contact</h4>
+          <ul>
+            <li><a href="tel:+912249716671">+91 22 4971 6671</a></li>
+            <li><a href="mailto:reservations@aranyarestaurant.com">reservations@aranyarestaurant.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Find Us</h4>
+          <p class="footer-address">
+            Laxmi Woollen Mills Estate,<br />
+            Shakti Mills Lane,<br />
+            Off Dr. E. Moses Road,<br />
+            Mahalaxmi, Mumbai â€” 400 011<br />
+            Maharashtra, India
+          </p>
+          <div class="footer-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.137048784643!2d72.81674757526855!3d18.976259700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce828f1a3e33%3A0x8f8ed6e5c9e6aff5!2sAranya!5e0!3m2!1sen!2sin!4v1708700000000!5m2!1sen!2sin"
+              loading="lazy" title="Aranya Restaurant location on Google Maps" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 Aranya Restaurant Pvt. Ltd. All rights reserved.</span>
+        <span>
+          <a href="#">Privacy Policy</a> &nbsp;Â·&nbsp;
+          <a href="#">Terms &amp; Conditions</a> &nbsp;Â·&nbsp;
+          <a href="#">Cancellation Policy</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
+</body>
+
+</html>
